@@ -16,7 +16,7 @@
   },
   "people": {
     "default": {
-      "voice": "h9K1sOblwDPp0OVDDPUJ",
+      "voice": "onwK4e9ZLuTAKqWW03F9",
       "model_id": "eleven_turbo_v2_5",
       "stability": 0.5,
       "similarity_boost": 0.8,
