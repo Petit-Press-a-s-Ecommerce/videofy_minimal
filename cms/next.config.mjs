@@ -43,6 +43,14 @@ const nextConfig = {
       },
     ],
   },
+  async rewrites() {
+    return [
+      {
+        source: '/projects/:projectId/files/:path*',
+        destination: 'http://127.0.0.1:8001/projects/:projectId/files/:path*',
+      },
+    ];
+  },
 };
 
 export default nextConfig;
